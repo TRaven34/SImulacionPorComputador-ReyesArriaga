@@ -1,3 +1,3 @@
 # SImulacionPorComputador-ReyesArriaga
 
-Para encontrar las actividades, puede cambiarlas entre los diferentes branches.
+Repositorio para subir las actividades de la materia de Simulacion por computador.
