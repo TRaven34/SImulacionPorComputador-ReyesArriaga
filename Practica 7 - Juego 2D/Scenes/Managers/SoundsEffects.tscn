@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://bers358b0bgsd"]
+
+[ext_resource type="Script" path="res://Scripts/SoundsEffects.gd" id="1_13vra"]
+[ext_resource type="AudioStream" uid="uid://bokbygflr1pq" path="res://Assets/Sound/FX/door-2-6841.wav" id="2_i4rj0"]
+[ext_resource type="AudioStream" uid="uid://cb5820ehifpgk" path="res://Assets/Sound/FX/coins27-36030.wav" id="2_ibtks"]
+
+[node name="SoundsEffects" type="Node2D"]
+script = ExtResource("1_13vra")
+
+[node name="Coin" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_ibtks")
+
+[node name="Door" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_i4rj0")

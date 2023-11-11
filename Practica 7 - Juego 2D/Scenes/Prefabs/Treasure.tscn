@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://b3krra5ucwpfd"]
+
+[ext_resource type="Script" path="res://Scenes/Prefabs/Treasure.gd" id="1_ok71l"]
+[ext_resource type="Texture2D" uid="uid://i1d4fihyny76" path="res://Assets/Exported assets/2D Pixel Dungeon Asset Pack/character and tileset/Treasure.png" id="2_jdpg5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gxxos"]
+size = Vector2(66, 59)
+
+[node name="Treasure" type="Area2D"]
+script = ExtResource("1_ok71l")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-7.62939e-06, 20)
+scale = Vector2(1.05357, 1.20833)
+texture = ExtResource("2_jdpg5")
+region_rect = Rect2(320, 320, 64, 64)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4.54747e-13, 18.5)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_gxxos")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwip3rpn8o4jm"]
+
+[ext_resource type="AudioStream" uid="uid://dtv73hg5uwag2" path="res://Assets/Sound/FX/fairy-intro-103880.wav" id="1_0e1bf"]
+
+[node name="AmbientSong" type="Node2D"]
+
+[node name="Ending" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_0e1bf")
+volume_db = -10.292
+autoplay = true

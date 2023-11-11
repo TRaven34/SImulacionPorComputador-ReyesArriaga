@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://5o7wppyypm6v"]
+
+[ext_resource type="Texture2D" uid="uid://cr8h8ur8lh0rf" path="res://Assets/Exported assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset_Resized.png" id="1_2i3ui"]
+[ext_resource type="Script" path="res://Scenes/Prefabs/PowerUp.gd" id="1_e7ut8"]
+
+[node name="PowerUp" type="Area2D"]
+script = ExtResource("1_e7ut8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_2i3ui")
+region_enabled = true
+region_rect = Rect2(588, 524, 40, 44)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(0, -22, 0, -22, 21, -8, 20, 13, 12, 21, -11, 21, -20, 13, -20, -7)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
