@@ -1,0 +1,11 @@
+res://treasure.tscn
+res://treasure.gd
+res://main.tscn
+res://player.tscn
+res://mob.tscn
+res://Level2.tscn
+res://end.tscn
+res://end.gd
+res://main.gd
+res://player.gd
+res://Speed.gd

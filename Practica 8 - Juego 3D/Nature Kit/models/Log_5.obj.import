@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://mniiruekiwls"
+path="res://.godot/imported/Log_5.obj-22cf2c49d1d4e906210323eac3b8bbde.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Log_5.obj-22cf2c49d1d4e906210323eac3b8bbde.mesh"]
+
+source_file="res://Nature Kit/models/Log_5.obj"
+dest_files=["res://.godot/imported/Log_5.obj-22cf2c49d1d4e906210323eac3b8bbde.mesh", "res://.godot/imported/Log_5.obj-22cf2c49d1d4e906210323eac3b8bbde.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

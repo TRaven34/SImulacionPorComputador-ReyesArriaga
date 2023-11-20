@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://5djtu8npp45w"
+path="res://.godot/imported/Branch_3.obj-9c26373390f8c6f66355675ff22cd674.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Branch_3.obj-9c26373390f8c6f66355675ff22cd674.mesh"]
+
+source_file="res://Nature Kit/models/Branch_3.obj"
+dest_files=["res://.godot/imported/Branch_3.obj-9c26373390f8c6f66355675ff22cd674.mesh", "res://.godot/imported/Branch_3.obj-9c26373390f8c6f66355675ff22cd674.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

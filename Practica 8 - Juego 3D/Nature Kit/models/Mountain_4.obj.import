@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://byxqph20hd3i8"
+path="res://.godot/imported/Mountain_4.obj-451509e249b76d93971268b9110f44a8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Mountain_4.obj-451509e249b76d93971268b9110f44a8.mesh"]
+
+source_file="res://Nature Kit/models/Mountain_4.obj"
+dest_files=["res://.godot/imported/Mountain_4.obj-451509e249b76d93971268b9110f44a8.mesh", "res://.godot/imported/Mountain_4.obj-451509e249b76d93971268b9110f44a8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

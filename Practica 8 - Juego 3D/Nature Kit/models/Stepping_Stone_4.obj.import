@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c0vrlsu07i4w3"
+path="res://.godot/imported/Stepping_Stone_4.obj-9e34a35d1d7934efaab726d6646e35db.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Stepping_Stone_4.obj-9e34a35d1d7934efaab726d6646e35db.mesh"]
+
+source_file="res://Nature Kit/models/Stepping_Stone_4.obj"
+dest_files=["res://.godot/imported/Stepping_Stone_4.obj-9e34a35d1d7934efaab726d6646e35db.mesh", "res://.godot/imported/Stepping_Stone_4.obj-9e34a35d1d7934efaab726d6646e35db.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

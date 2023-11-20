@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://do6duu2ud0ey5"
+path="res://.godot/imported/Tree_Bare_3.obj-234f354c4d1d9556c9b57fc105a75199.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Tree_Bare_3.obj-234f354c4d1d9556c9b57fc105a75199.mesh"]
+
+source_file="res://Nature Kit/models/Tree_Bare_3.obj"
+dest_files=["res://.godot/imported/Tree_Bare_3.obj-234f354c4d1d9556c9b57fc105a75199.mesh", "res://.godot/imported/Tree_Bare_3.obj-234f354c4d1d9556c9b57fc105a75199.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

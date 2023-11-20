@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://coojk0hmokfkd"]
+
+[ext_resource type="Script" path="res://treasure.gd" id="1_qqlh4"]
+[ext_resource type="ArrayMesh" uid="uid://c80v3tkv6o7md" path="res://Treasure/Package/AncientTreasure.obj" id="1_xpdqu"]
+[ext_resource type="AudioStream" uid="uid://cok2r8q8dpu8b" path="res://art/coins27-36030.wav" id="3_6vl1m"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_siflo"]
+size = Vector3(3.41542, 1.56238, 2.17281)
+
+[node name="Treasure" type="Area3D" groups=["treasure"]]
+script = ExtResource("1_qqlh4")
+
+[node name="Coins" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_6vl1m")
+
+[node name="Model" type="Node3D" parent="."]
+
+[node name="Cofre" type="MeshInstance3D" parent="Model"]
+mesh = ExtResource("1_xpdqu")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.847749, -0.1552)
+shape = SubResource("BoxShape3D_siflo")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

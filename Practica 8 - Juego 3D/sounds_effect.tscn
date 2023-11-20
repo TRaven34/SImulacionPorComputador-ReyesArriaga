@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://6s0d3ck2djcj"]
+
+[ext_resource type="Script" path="res://SoundsEffect.gd" id="1_oetxt"]
+[ext_resource type="AudioStream" uid="uid://cok2r8q8dpu8b" path="res://art/coins27-36030.wav" id="2_ycmpl"]
+
+[node name="SoundsEffect" type="Node3D"]
+script = ExtResource("1_oetxt")
+
+[node name="Coins" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_ycmpl")
+bus = &"Coins"

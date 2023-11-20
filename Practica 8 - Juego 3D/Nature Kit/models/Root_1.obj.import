@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d0aum3ssgp03t"
+path="res://.godot/imported/Root_1.obj-3c454d12ba993cec726fd1e08f17637e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Root_1.obj-3c454d12ba993cec726fd1e08f17637e.mesh"]
+
+source_file="res://Nature Kit/models/Root_1.obj"
+dest_files=["res://.godot/imported/Root_1.obj-3c454d12ba993cec726fd1e08f17637e.mesh", "res://.godot/imported/Root_1.obj-3c454d12ba993cec726fd1e08f17637e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

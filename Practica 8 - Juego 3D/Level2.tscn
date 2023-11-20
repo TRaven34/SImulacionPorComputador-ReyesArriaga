@@ -1,0 +1,336 @@
+[gd_scene load_steps=29 format=3 uid="uid://dnyfbtag85ld0"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_3frey"]
+[ext_resource type="PackedScene" uid="uid://cj8qujv12i2cq" path="res://mob.tscn" id="2_a2ala"]
+[ext_resource type="Texture2D" uid="uid://by0ukx7k1m8k" path="res://Nature Kit/models/textures/Bark Palm.png" id="3_sg2gh"]
+[ext_resource type="PackedScene" uid="uid://bbwsph2sddqio" path="res://player.tscn" id="4_2l1un"]
+[ext_resource type="FontFile" uid="uid://be52keia2prbp" path="res://fonts/Montserrat-Medium.ttf" id="5_5fqbq"]
+[ext_resource type="Script" path="res://ScoreLabel.gd" id="6_xqxpr"]
+[ext_resource type="Script" path="res://TimeLabel.gd" id="7_kes65"]
+[ext_resource type="Script" path="res://Speed.gd" id="8_3yxhi"]
+[ext_resource type="ArrayMesh" uid="uid://bcitcqet631sc" path="res://Nature Kit/models/Rock_1.obj" id="9_pgdqd"]
+[ext_resource type="ArrayMesh" uid="uid://cb5vvdikbo3md" path="res://Nature Kit/models/Rock_2.obj" id="10_mhinb"]
+[ext_resource type="ArrayMesh" uid="uid://dabi6wf5fen81" path="res://Nature Kit/models/Rock_3.obj" id="11_l66yw"]
+[ext_resource type="ArrayMesh" uid="uid://ct2g8d2c2nuob" path="res://Nature Kit/models/Rock_4.obj" id="12_ahwby"]
+[ext_resource type="ArrayMesh" uid="uid://t3y2rvuywwx1" path="res://Nature Kit/models/Rock_5.obj" id="13_xkx2p"]
+[ext_resource type="ArrayMesh" uid="uid://s1paivt8b6bm" path="res://Nature Kit/models/Rock_6.obj" id="14_rehmk"]
+[ext_resource type="ArrayMesh" uid="uid://dn7vh0vpapkb1" path="res://Nature Kit/models/Tree_Palm_1.obj" id="15_n4vuc"]
+[ext_resource type="ArrayMesh" uid="uid://dge1ihx6xgmed" path="res://Nature Kit/models/Tree_Palm_2.obj" id="16_tui2j"]
+[ext_resource type="ArrayMesh" uid="uid://bhc014546ddpf" path="res://Nature Kit/models/Tree_Palm_3.obj" id="17_k30d5"]
+[ext_resource type="ArrayMesh" uid="uid://hmvighn5t38l" path="res://Nature Kit/models/Tree_Palm_4.obj" id="18_2skg0"]
+[ext_resource type="ArrayMesh" uid="uid://crm8d0fyipadb" path="res://Nature Kit/models/Tree_Palm_5.obj" id="19_hkf52"]
+[ext_resource type="ArrayMesh" uid="uid://cipn10j1vdjw1" path="res://Nature Kit/models/Tree_Palm_6.obj" id="20_uca1m"]
+[ext_resource type="PackedScene" uid="uid://coojk0hmokfkd" path="res://treasure.tscn" id="21_s6yib"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nuy3b"]
+size = Vector3(60, 2, 60)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pf2eb"]
+albedo_texture = ExtResource("3_sg2gh")
+
+[sub_resource type="BoxMesh" id="BoxMesh_7dxdn"]
+size = Vector3(60, 2, 60)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p3akx"]
+albedo_color = Color(0.968627, 0.545098, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_kgui6"]
+material = SubResource("StandardMaterial3D_p3akx")
+
+[sub_resource type="Curve3D" id="Curve3D_tenrv"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -14.9883, 0, -14.9172, 0, 0, 0, 0, 0, 0, 15.048, 0, -14.9172, 0, 0, 0, 0, 0, 0, 14.9325, 0, 14.888, 0, 0, 0, 0, 0, 0, -15.1038, 0, 15.0035, 0, 0, 0, 0, 0, 0, -14.9883, 0, -14.9172),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0)
+}
+point_count = 5
+
+[sub_resource type="Theme" id="Theme_pwnef"]
+default_font = ExtResource("5_5fqbq")
+default_font_size = 22
+
+[node name="Main" type="Node"]
+script = ExtResource("1_3frey")
+mob_scene = ExtResource("2_a2ala")
+
+[node name="Ground" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+collision_layer = 4
+collision_mask = 0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground"]
+shape = SubResource("BoxShape3D_nuy3b")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ground"]
+material_override = SubResource("StandardMaterial3D_pf2eb")
+mesh = SubResource("BoxMesh_7dxdn")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.0205061, 0.99979, 0, -0.99979, 0.0205061, 1.49314, 9.134, 0.24701)
+shadow_enabled = true
+
+[node name="player" parent="." instance=ExtResource("4_2l1un")]
+
+[node name="CameraPivot" type="Marker3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.5, 0.866025, 0, -0.866025, 0.5, 0, 14, 7)
+
+[node name="Camera" type="Camera3D" parent="CameraPivot"]
+transform = Transform3D(1, 0, 0, 0, 0.965926, 0.258819, 0, -0.258819, 0.965926, 0, 3.37815, 12.5359)
+fov = 48.4
+
+[node name="Cylinders" type="Node3D" parent="."]
+visible = false
+
+[node name="MeshInstance" type="MeshInstance3D" parent="Cylinders"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, -15)
+mesh = SubResource("CylinderMesh_kgui6")
+
+[node name="MeshInstance2" type="MeshInstance3D" parent="Cylinders"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, 15)
+mesh = SubResource("CylinderMesh_kgui6")
+
+[node name="MeshInstance3" type="MeshInstance3D" parent="Cylinders"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, 15)
+mesh = SubResource("CylinderMesh_kgui6")
+
+[node name="MeshInstance4" type="MeshInstance3D" parent="Cylinders"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, -15)
+mesh = SubResource("CylinderMesh_kgui6")
+
+[node name="SpawnPath" type="Path3D" parent="."]
+curve = SubResource("Curve3D_tenrv")
+
+[node name="SpawnLocation" type="PathFollow3D" parent="SpawnPath"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -14.9883, 0, -14.9172)
+
+[node name="MobTimer" type="Timer" parent="."]
+wait_time = 0.5
+autostart = true
+
+[node name="UserInterface" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_pwnef")
+
+[node name="Stats" type="ColorRect" parent="UserInterface"]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 36.0
+offset_right = 140.0
+offset_bottom = 97.0
+
+[node name="ScoreLabel" type="Label" parent="UserInterface"]
+layout_mode = 1
+offset_left = 28.0
+offset_top = 35.0
+offset_right = 89.0
+offset_bottom = 61.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Score: 0"
+script = ExtResource("6_xqxpr")
+
+[node name="TimeLabel" type="Label" parent="UserInterface"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 70.0
+offset_right = 115.0
+offset_bottom = 103.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_5fqbq")
+text = "Time: 0"
+script = ExtResource("7_kes65")
+
+[node name="Speed" type="Label" parent="UserInterface"]
+offset_left = 274.0
+offset_top = 38.0
+offset_right = 438.0
+offset_bottom = 99.0
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("8_3yxhi")
+
+[node name="Retry" type="ColorRect" parent="UserInterface"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="UserInterface/Retry"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -110.0
+offset_top = -15.5
+offset_right = 110.0
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Press Enter to Retry"
+
+[node name="LevelTimer" type="Timer" parent="."]
+autostart = true
+
+[node name="Rock1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 1)
+mesh = ExtResource("9_pgdqd")
+
+[node name="Rock2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 7)
+mesh = ExtResource("10_mhinb")
+
+[node name="Rock3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -4)
+mesh = ExtResource("10_mhinb")
+
+[node name="Rock4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -4)
+mesh = ExtResource("11_l66yw")
+
+[node name="Rock5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 6)
+mesh = ExtResource("12_ahwby")
+
+[node name="Rock6" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -4)
+mesh = ExtResource("13_xkx2p")
+
+[node name="Rock7" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -9)
+mesh = ExtResource("12_ahwby")
+
+[node name="Rock8" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13, 0, -12)
+mesh = ExtResource("10_mhinb")
+
+[node name="Rock9" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, 8)
+mesh = ExtResource("9_pgdqd")
+
+[node name="Rock10" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, 12)
+mesh = ExtResource("11_l66yw")
+
+[node name="Rock11" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 10)
+mesh = ExtResource("12_ahwby")
+
+[node name="Rock12" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -9)
+mesh = ExtResource("14_rehmk")
+
+[node name="Rock13" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 13)
+mesh = ExtResource("13_xkx2p")
+
+[node name="Rock14" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -11)
+mesh = ExtResource("14_rehmk")
+
+[node name="TreePalm1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -1)
+mesh = ExtResource("15_n4vuc")
+
+[node name="TreePalm2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -6)
+mesh = ExtResource("16_tui2j")
+
+[node name="TreePalm3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -8)
+mesh = ExtResource("17_k30d5")
+
+[node name="TreePalm4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -12)
+mesh = ExtResource("18_2skg0")
+
+[node name="TreePalm5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, -3)
+mesh = ExtResource("19_hkf52")
+
+[node name="TreePalm6" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 3)
+mesh = ExtResource("20_uca1m")
+
+[node name="TreePalm7" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5)
+mesh = ExtResource("15_n4vuc")
+
+[node name="TreePalm8" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 9)
+mesh = ExtResource("18_2skg0")
+
+[node name="TreePalm9" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 4)
+mesh = ExtResource("19_hkf52")
+
+[node name="TreePalm10" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13, 0, 7)
+mesh = ExtResource("20_uca1m")
+
+[node name="TreePalm11" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 10)
+mesh = ExtResource("17_k30d5")
+
+[node name="TreePalm12" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 7)
+mesh = ExtResource("16_tui2j")
+
+[node name="TreePalm13" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 10)
+mesh = ExtResource("15_n4vuc")
+
+[node name="TreePalm14" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -9)
+mesh = ExtResource("16_tui2j")
+
+[node name="TreePalm15" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -12)
+mesh = ExtResource("18_2skg0")
+
+[node name="TreePalm16" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, -5)
+mesh = ExtResource("19_hkf52")
+
+[node name="TreePalm17" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -13)
+mesh = ExtResource("20_uca1m")
+
+[node name="TreePalm18" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -12)
+mesh = ExtResource("18_2skg0")
+
+[node name="TreePalm19" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, 3)
+mesh = ExtResource("19_hkf52")
+
+[node name="TreePalm20" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 12)
+mesh = ExtResource("17_k30d5")
+
+[node name="TreePalm21" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 11)
+mesh = ExtResource("18_2skg0")
+
+[node name="Treasure" parent="." instance=ExtResource("21_s6yib")]
+transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 5, 0, -5)
+
+[node name="Treasure2" parent="." instance=ExtResource("21_s6yib")]
+transform = Transform3D(-0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, -6, 0, 6)
+
+[node name="Treasure4" parent="." instance=ExtResource("21_s6yib")]
+transform = Transform3D(0.258819, 0, 0.965926, 0, 1, 0, -0.965926, 0, 0.258819, -6, 0, -2)
+
+[node name="Treasure3" parent="." instance=ExtResource("21_s6yib")]
+transform = Transform3D(-0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, -0.866025, 4, 0, 6)
+
+[connection signal="hit" from="player" to="." method="_on_player_hit"]
+[connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]
+[connection signal="timeout" from="LevelTimer" to="UserInterface/TimeLabel" method="_on_level_timer_timeout"]

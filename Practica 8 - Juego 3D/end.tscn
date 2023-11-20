@@ -1,0 +1,49 @@
+[gd_scene load_steps=3 format=3 uid="uid://cbxvb1kumby8r"]
+
+[ext_resource type="Script" path="res://end.gd" id="1_6t2qd"]
+[ext_resource type="Texture2D" uid="uid://cbeimttd3vkai" path="res://art/caballeros-edad-media-curiosidades-a.jpg" id="1_tmcea"]
+
+[node name="end" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6t2qd")
+
+[node name="Caballeros-edad-media-curiosidades-a" type="Sprite2D" parent="."]
+position = Vector2(360, 273.5)
+scale = Vector2(0.616667, 0.845926)
+texture = ExtResource("1_tmcea")
+
+[node name="Score" type="Label" parent="."]
+layout_mode = 0
+offset_left = 157.0
+offset_top = 289.0
+offset_right = 367.0
+offset_bottom = 383.0
+theme_override_font_sizes/font_size = 66
+text = "Score"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Time" type="Label" parent="."]
+layout_mode = 0
+offset_left = 411.0
+offset_top = 288.0
+offset_right = 567.0
+offset_bottom = 382.0
+theme_override_font_sizes/font_size = 66
+text = "Time"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Aviso" type="Label" parent="."]
+layout_mode = 0
+offset_left = 164.0
+offset_top = 189.0
+offset_right = 576.0
+offset_bottom = 298.0
+theme_override_font_sizes/font_size = 61
+text = "SOBREVIVISTE!!!"

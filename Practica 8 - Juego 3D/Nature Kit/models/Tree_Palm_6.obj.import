@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cipn10j1vdjw1"
+path="res://.godot/imported/Tree_Palm_6.obj-550d8bdb74bed964ddff483d539141be.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Tree_Palm_6.obj-550d8bdb74bed964ddff483d539141be.mesh"]
+
+source_file="res://Nature Kit/models/Tree_Palm_6.obj"
+dest_files=["res://.godot/imported/Tree_Palm_6.obj-550d8bdb74bed964ddff483d539141be.mesh", "res://.godot/imported/Tree_Palm_6.obj-550d8bdb74bed964ddff483d539141be.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

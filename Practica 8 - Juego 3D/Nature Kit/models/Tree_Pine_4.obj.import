@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://byvw8lbvb0qrv"
+path="res://.godot/imported/Tree_Pine_4.obj-a2a7cf43ab464149e7885944a3bd1293.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Tree_Pine_4.obj-a2a7cf43ab464149e7885944a3bd1293.mesh"]
+
+source_file="res://Nature Kit/models/Tree_Pine_4.obj"
+dest_files=["res://.godot/imported/Tree_Pine_4.obj-a2a7cf43ab464149e7885944a3bd1293.mesh", "res://.godot/imported/Tree_Pine_4.obj-a2a7cf43ab464149e7885944a3bd1293.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

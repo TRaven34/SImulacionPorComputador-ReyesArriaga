@@ -1,0 +1,49 @@
+[gd_scene load_steps=8 format=3 uid="uid://bbwsph2sddqio"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_u76gm"]
+[ext_resource type="PackedScene" uid="uid://c7du5dpwgotap" path="res://knight.tscn" id="2_31pny"]
+[ext_resource type="AudioStream" uid="uid://b8wymvqqxnwa3" path="res://art/footsteps.wav" id="3_y5pjq"]
+[ext_resource type="AudioStream" uid="uid://bjcc6prwaey6k" path="res://cartoon-jump-6462.wav" id="4_y1k8e"]
+[ext_resource type="AudioStream" uid="uid://dequqmr176om6" path="res://art/Minecraft-death-sound.wav" id="5_6vswp"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ciedo"]
+size = Vector3(1.22629, 1, 2.26238)
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_hv3xx"]
+height = 0.158982
+radius = 0.671027
+
+[node name="player" type="CharacterBody3D" groups=["player"]]
+collision_mask = 6
+script = ExtResource("1_u76gm")
+
+[node name="Pivot" type="Node3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="Knight" parent="Pivot" instance=ExtResource("2_31pny")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.998991, 0.00122774, 0.0448857, 0.0449021, -0.0232692, -0.998721, -0.000181615, 0.999729, -0.0233008, 0.0729145, 1.21354, 0.0492077)
+shape = SubResource("BoxShape3D_ciedo")
+
+[node name="MobDetector" type="Area3D" parent="."]
+collision_layer = 0
+collision_mask = 2
+monitorable = false
+
+[node name="CollisionShape" type="CollisionShape3D" parent="MobDetector"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.820801, 0)
+shape = SubResource("CylinderShape3D_hv3xx")
+
+[node name="Footsteps" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_y5pjq")
+
+[node name="Jump" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_y1k8e")
+volume_db = -24.655
+
+[node name="Death" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_6vswp")
+volume_db = -15.0
+
+[connection signal="body_entered" from="MobDetector" to="." method="_on_mob_detector_body_entered"]

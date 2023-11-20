@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://k06m656e7fg1"
+path="res://.godot/imported/Coconut.obj-5644ff23134dcc5ebe1e1abc580742fe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Coconut.obj-5644ff23134dcc5ebe1e1abc580742fe.mesh"]
+
+source_file="res://Nature Kit/models/Coconut.obj"
+dest_files=["res://.godot/imported/Coconut.obj-5644ff23134dcc5ebe1e1abc580742fe.mesh", "res://.godot/imported/Coconut.obj-5644ff23134dcc5ebe1e1abc580742fe.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

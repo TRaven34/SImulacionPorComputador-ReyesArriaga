@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dvhbmqqw4854h"
+path="res://.godot/imported/Shell_Slate.obj-43ba26f1d784451503bf69e58c6c01df.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Shell_Slate.obj-43ba26f1d784451503bf69e58c6c01df.mesh"]
+
+source_file="res://Nature Kit/models/Shell_Slate.obj"
+dest_files=["res://.godot/imported/Shell_Slate.obj-43ba26f1d784451503bf69e58c6c01df.mesh", "res://.godot/imported/Shell_Slate.obj-43ba26f1d784451503bf69e58c6c01df.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

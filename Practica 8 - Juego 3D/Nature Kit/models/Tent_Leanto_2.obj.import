@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ce050gd1r7e43"
+path="res://.godot/imported/Tent_Leanto_2.obj-d064286162a45f85c7e622e3390ddcee.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Tent_Leanto_2.obj-d064286162a45f85c7e622e3390ddcee.mesh"]
+
+source_file="res://Nature Kit/models/Tent_Leanto_2.obj"
+dest_files=["res://.godot/imported/Tent_Leanto_2.obj-d064286162a45f85c7e622e3390ddcee.mesh", "res://.godot/imported/Tent_Leanto_2.obj-d064286162a45f85c7e622e3390ddcee.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

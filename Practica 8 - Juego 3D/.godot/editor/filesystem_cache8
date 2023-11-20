@@ -1,0 +1,297 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1700445457
+barbarian.tscn::PackedScene::2946274170552416506::1700263146::0::1::::<><>::uid://ci1jr8deko0tp
+cartoon-jump-6462.wav::AudioStreamWAV::3022426640651789352::1700426036::1700426036::1::::<><>::
+default_bus_layout.tres::AudioBusLayout::5436084971762623560::1700433420::0::1::::<><>::
+default_env.tres::Environment::-1::1700090834::0::1::::<><>::
+end.gd::GDScript::-1::1700444881::0::1::::<>Control<>::
+end.tscn::PackedScene::4891789123989570587::1700445279::0::1::::<><>::res://end.gd<>uid://cbeimttd3vkai::::res://art/caballeros-edad-media-curiosidades-a.jpg
+float.res::Animation::7250066121624853033::1700242992::0::1::::<><>::
+GameEngine.gd::GDScript::-1::1700434042::0::1::::<>Node<>::
+icon.png::CompressedTexture2D::742098058191944899::1700090804::1700090846::1::::<><>::
+knight.gd::GDScript::-1::1700428102::0::1::::<>Node3D<>::
+knight.tscn::PackedScene::7026345592488180139::1700430478::0::1::::<><>::uid://dyuubmqaleqe
+Level2.tscn::PackedScene::8121568453490452331::1700445279::0::1::::<><>::res://main.gd<>uid://cj8qujv12i2cq::::res://mob.tscn<>uid://by0ukx7k1m8k::::res://Nature Kit/models/textures/Bark Palm.png<>uid://bbwsph2sddqio::::res://player.tscn<>uid://be52keia2prbp::::res://fonts/Montserrat-Medium.ttf<>res://ScoreLabel.gd<>res://TimeLabel.gd<>res://Speed.gd<>uid://bcitcqet631sc::::res://Nature Kit/models/Rock_1.obj<>uid://cb5vvdikbo3md::::res://Nature Kit/models/Rock_2.obj<>uid://dabi6wf5fen81::::res://Nature Kit/models/Rock_3.obj<>uid://ct2g8d2c2nuob::::res://Nature Kit/models/Rock_4.obj<>uid://t3y2rvuywwx1::::res://Nature Kit/models/Rock_5.obj<>uid://s1paivt8b6bm::::res://Nature Kit/models/Rock_6.obj<>uid://dn7vh0vpapkb1::::res://Nature Kit/models/Tree_Palm_1.obj<>uid://dge1ihx6xgmed::::res://Nature Kit/models/Tree_Palm_2.obj<>uid://bhc014546ddpf::::res://Nature Kit/models/Tree_Palm_3.obj<>uid://hmvighn5t38l::::res://Nature Kit/models/Tree_Palm_4.obj<>uid://crm8d0fyipadb::::res://Nature Kit/models/Tree_Palm_5.obj<>uid://cipn10j1vdjw1::::res://Nature Kit/models/Tree_Palm_6.obj<>uid://coojk0hmokfkd::::res://treasure.tscn
+main.gd::GDScript::-1::1700445077::0::1::::<>Node<>::
+main.tscn::PackedScene::7743386026202659229::1700445294::0::1::::<><>::res://main.gd<>uid://bbwsph2sddqio::::res://player.tscn<>uid://cj8qujv12i2cq::::res://mob.tscn<>uid://dtw3sn3sg1nce::::res://Nature Kit/models/textures/Cattail Stem.png<>uid://be52keia2prbp::::res://fonts/Montserrat-Medium.ttf<>res://ScoreLabel.gd<>res://TimeLabel.gd<>res://Speed.gd<>uid://wkppistgbn5e::::res://Nature Kit/models/Campfire_Star.obj<>uid://coojk0hmokfkd::::res://treasure.tscn<>uid://bcitcqet631sc::::res://Nature Kit/models/Rock_1.obj<>uid://cb5vvdikbo3md::::res://Nature Kit/models/Rock_2.obj<>uid://dabi6wf5fen81::::res://Nature Kit/models/Rock_3.obj<>uid://ct2g8d2c2nuob::::res://Nature Kit/models/Rock_4.obj<>uid://t3y2rvuywwx1::::res://Nature Kit/models/Rock_5.obj<>uid://s1paivt8b6bm::::res://Nature Kit/models/Rock_6.obj<>uid://ctnv503v1sxka::::res://Nature Kit/models/Tree_Oak_1.obj<>uid://d1nd1trjnb4g0::::res://Nature Kit/models/Tree_Oak_2.obj<>uid://cmp23mhwh4245::::res://Nature Kit/models/Tree_Oak_3.obj<>uid://dfrniy0pgurdw::::res://Nature Kit/models/Tree_Oak_6.obj<>uid://7iqddxd2anv3::::res://Nature Kit/models/Tree_Oak_7.obj<>uid://d1krubxg4rlbj::::res://Nature Kit/models/Tree_Oak_8.obj
+mob.gd::GDScript::-1::1700423094::0::1::::<>CharacterBody3D<>::
+mob.tscn::PackedScene::5473673120143619376::1700445279::0::1::::<><>::res://mob.gd<>uid://bh8gx8ess1qh3::::res://barbarian.tscn
+MusicPlayer.tscn::PackedScene::5213779290766406697::1700432388::0::1::::<><>::uid://bcu718ts14ie3
+player.gd::GDScript::-1::1700444916::0::1::::<>CharacterBody3D<>::
+player.tscn::PackedScene::2503145940893971878::1700445279::0::1::::<><>::res://player.gd<>uid://c7du5dpwgotap::::res://knight.tscn<>uid://b8wymvqqxnwa3::::res://art/footsteps.wav<>uid://bjcc6prwaey6k::::res://cartoon-jump-6462.wav<>uid://dequqmr176om6::::res://art/Minecraft-death-sound.wav
+ScoreLabel.gd::GDScript::-1::1700433036::0::1::::<>Label<>::
+SoundsEffect.gd::GDScript::-1::1700434036::0::1::::<>Node3D<>::
+sounds_effect.tscn::PackedScene::2214537708786932729::1700434042::0::1::::<><>::res://SoundsEffect.gd<>uid://cok2r8q8dpu8b
+Speed.gd::GDScript::-1::1700444981::0::1::::<>Label<>::
+TimeLabel.gd::GDScript::-1::1700421184::0::1::::<>Label<>::
+treasure.gd::GDScript::-1::1700444473::0::1::::<>Area3D<>::
+treasure.tscn::PackedScene::5784952102211156955::1700445279::0::1::::<><>::res://treasure.gd<>uid://c80v3tkv6o7md::::res://Treasure/Package/AncientTreasure.obj<>uid://cok2r8q8dpu8b::::res://art/coins27-36030.wav
+::res://art/::1700445262
+body.material::StandardMaterial3D::-1::1700090804::0::1::::<><>::
+caballeros-edad-media-curiosidades-a.jpg::CompressedTexture2D::4851795914978961336::1700444558::1700444559::1::::<><>::
+coins27-36030.wav::AudioStreamWAV::5777800432651748219::1700430636::1700432616::1::::<><>::
+eye.material::StandardMaterial3D::-1::1700090804::0::1::::<><>::
+footsteps.wav::AudioStreamWAV::4749548600156201292::1700429102::1700429260::1::::<><>::
+House In a Forest Loop.ogg::AudioStreamOggVorbis::8888361719178194400::1700090804::1700090846::1::::<><>::
+Intro.png::CompressedTexture2D::4545799912835301558::1700445260::1700445262::1::::<><>::
+Minecraft-death-sound.wav::AudioStreamWAV::7474291040021392359::1700432134::1700432134::1::::<><>::
+mob.glb::PackedScene::792122859353591101::1700090804::1700090846::1::::<><>::
+mob_body.material::StandardMaterial3D::-1::1700090804::0::1::::<><>::
+mob_eye.material::StandardMaterial3D::-1::1700090804::0::1::::<><>::
+player.glb::PackedScene::6829963721841812898::1700090804::1700090846::1::::<><>::
+pupil.material::StandardMaterial3D::-1::1700090804::0::1::::<><>::
+running-1-6846.wav::AudioStreamWAV::5961095431151261814::1700426162::1700426172::1::::<><>::
+time-before-loop-hip-hop-32793.ogg::AudioStreamOggVorbis::2570077063935985740::1700432352::1700432366::1::::<><>::
+::res://fonts/::1700444306
+LICENSE.txt::TextFile::-1::1700090804::0::1::::<><>::
+Montserrat-Medium.ttf::FontFile::2730764830099293597::1700090804::1700090846::1::::<><>::
+::res://KayKit_Adventurers_1.0_FREE/::1700444309
+contents.png::CompressedTexture2D::2725819889455852476::1700240876::1700240988::1::::<><>::
+License.txt::TextFile::-1::1700240876::0::1::::<><>::
+::res://KayKit_Adventurers_1.0_FREE/Assets/::1700444306
+::res://KayKit_Adventurers_1.0_FREE/Assets/fbx/::1700444306
+barbarian_texture.png::CompressedTexture2D::4268670892475420451::1700240876::1700240988::1::::<><>::
+knight_texture.png::CompressedTexture2D::1232665730637022664::1700240878::1700240988::1::::<><>::
+mage_texture.png::CompressedTexture2D::977666796253874237::1700240878::1700240988::1::::<><>::
+rogue_texture.png::CompressedTexture2D::6599819770486283037::1700240878::1700240988::1::::<><>::
+::res://KayKit_Adventurers_1.0_FREE/Assets/gltf/::1700444308
+arrow.gltf::PackedScene::42910212588460708::1700240878::1700240996::1::::<><>::
+arrow_bundle.gltf::PackedScene::6221551590317813576::1700240878::1700240996::1::::<><>::
+axe_1handed.gltf::PackedScene::2237632960714658603::1700240878::1700240996::1::::<><>::uid://kxk6jru506et
+axe_2handed.gltf::PackedScene::7937797116437524988::1700240878::1700240996::1::::<><>::uid://kxk6jru506et
+barbarian_texture.png::CompressedTexture2D::750032154184058623::1700240878::1700240988::1::::<><>::
+crossbow_1handed.gltf::PackedScene::7573577284539750813::1700240878::1700241002::1::::<><>::uid://bpobwtj3lhfds
+crossbow_2handed.gltf::PackedScene::1318409733360096526::1700240878::1700241000::1::::<><>::
+dagger.gltf::PackedScene::3116199468186110286::1700240878::1700241000::1::::<><>::
+knight_texture.png::CompressedTexture2D::4047519647889995140::1700240878::1700240988::1::::<><>::
+mage_texture.png::CompressedTexture2D::5388331781166961083::1700240878::1700240988::1::::<><>::
+mug_empty.gltf::PackedScene::2624956729210995820::1700240878::1700241000::1::::<><>::
+mug_full.gltf::PackedScene::1541594315078369098::1700240878::1700241000::1::::<><>::uid://kxk6jru506et
+quiver.gltf::PackedScene::61013635410542777::1700240878::1700241000::1::::<><>::uid://bpobwtj3lhfds
+rogue_texture.png::CompressedTexture2D::3468255644413162932::1700240878::1700240988::1::::<><>::
+shield_badge.gltf::PackedScene::8715491269070756339::1700240878::1700240998::1::::<><>::
+shield_badge_color.gltf::PackedScene::2868206528270103684::1700240878::1700240998::1::::<><>::
+shield_round.gltf::PackedScene::9028715583403769282::1700240878::1700240998::1::::<><>::
+shield_round_barbarian.gltf::PackedScene::4489073271985142051::1700240878::1700240998::1::::<><>::
+shield_round_color.gltf::PackedScene::3270438886679059043::1700240878::1700241000::1::::<><>::uid://bxwwb7gghb00w
+shield_spikes.gltf::PackedScene::5680349674199048505::1700240878::1700241000::1::::<><>::
+shield_spikes_color.gltf::PackedScene::6047028721942617647::1700240878::1700240996::1::::<><>::
+shield_square.gltf::PackedScene::23360638514163965::1700240878::1700240998::1::::<><>::uid://bxwwb7gghb00w
+shield_square_color.gltf::PackedScene::3791395243549083986::1700240878::1700240998::1::::<><>::uid://bxwwb7gghb00w
+smokebomb.gltf::PackedScene::5231486376276528807::1700240878::1700241012::1::::<><>::uid://bpobwtj3lhfds
+spellbook_closed.gltf::PackedScene::2688642651722565357::1700240878::1700241012::1::::<><>::uid://ci1fbi80i7x5d
+spellbook_open.gltf::PackedScene::4822699520433274625::1700240878::1700241012::1::::<><>::uid://ci1fbi80i7x5d
+staff.gltf::PackedScene::1151412222752921831::1700240878::1700241010::1::::<><>::
+sword_1handed.gltf::PackedScene::3498086183844014474::1700240878::1700241010::1::::<><>::
+sword_2handed.gltf::PackedScene::6737036002871535888::1700240878::1700241010::1::::<><>::
+sword_2handed_color.gltf::PackedScene::2401346642281547639::1700240878::1700241010::1::::<><>::
+wand.gltf::PackedScene::5396250786274502643::1700240878::1700241010::1::::<><>::
+::res://KayKit_Adventurers_1.0_FREE/Characters/::1700444308
+::res://KayKit_Adventurers_1.0_FREE/Characters/fbx/::1700444308
+barbarian_texture.png::CompressedTexture2D::2382367639486723615::1700240878::1700240988::1::::<><>::
+knight_texture.png::CompressedTexture2D::7042148407782824869::1700240878::1700240988::1::::<><>::
+mage_texture.png::CompressedTexture2D::3071680011059388158::1700240878::1700240988::1::::<><>::
+rogue_texture.png::CompressedTexture2D::3151243934326913961::1700240878::1700240986::1::::<><>::
+::res://KayKit_Adventurers_1.0_FREE/Characters/gltf/::1700444308
+Barbarian.glb::PackedScene::5388604487627949641::1700240878::1700241016::1::::<><>::
+Barbarian_barbarian_texture.png::CompressedTexture2D::8543450590263544800::1700241016::1700251942::1::::<><>::
+barbarian_texture.png::CompressedTexture2D::8727482254648063868::1700240878::1700240986::1::::<><>::
+Knight.glb::PackedScene::261361724533366412::1700240878::1700241016::1::::<><>::
+Knight_knight_texture.png::CompressedTexture2D::7396150538729256851::1700241014::1700241076::1::::<><>::
+knight_texture.png::CompressedTexture2D::7033402976949683821::1700240878::1700240986::1::::<><>::
+Mage.glb::PackedScene::4022699348165974314::1700240878::1700241014::1::::<><>::
+Mage_mage_texture.png::CompressedTexture2D::1295582247809849173::1700241014::1700241014::1::::<><>::
+mage_texture.png::CompressedTexture2D::926175849754168902::1700240878::1700240986::1::::<><>::
+Rogue.glb::PackedScene::2932089354348467079::1700240878::1700241014::1::::<><>::
+Rogue_Hooded.glb::PackedScene::7496805723085540242::1700240878::1700241014::1::::<><>::
+Rogue_Hooded_rogue_texture.png::CompressedTexture2D::8677405924878384203::1700241012::1700241012::1::::<><>::
+Rogue_rogue_texture.png::CompressedTexture2D::5539115198709312166::1700241014::1700241014::1::::<><>::
+rogue_texture.png::CompressedTexture2D::1704497883839172377::1700240878::1700240986::1::::<><>::
+::res://KayKit_Adventurers_1.0_FREE/Samples/::1700444309
+barbarian.png::CompressedTexture2D::779337685887408758::1700240878::1700240988::1::::<><>::
+druid.png::CompressedTexture2D::2119809916442058262::1700240878::1700240988::1::::<><>::
+engineer.png::CompressedTexture2D::1348628512907523043::1700240878::1700240988::1::::<><>::
+knight.png::CompressedTexture2D::3889488055218654101::1700240878::1700240988::1::::<><>::
+mage.png::CompressedTexture2D::2398442384634252869::1700240878::1700240988::1::::<><>::
+rogue.png::CompressedTexture2D::6382884533401413442::1700240878::1700240988::1::::<><>::
+::res://KayKit_Adventurers_1.0_FREE/Textures/::1700444309
+barbarian_texture.png::CompressedTexture2D::6670618161144087155::1700240878::1700240986::1::::<><>::
+knight_texture.png::CompressedTexture2D::3910285420362666526::1700240878::1700240986::1::::<><>::
+mage_texture.png::CompressedTexture2D::6639517407398101593::1700240878::1700240986::1::::<><>::
+rogue_texture.png::CompressedTexture2D::281691015875874592::1700240878::1700240986::1::::<><>::
+::res://Nature Kit/::1700444309
+::res://Nature Kit/models/::1700444315
+Branch_1.obj::Mesh::8136677403339809189::1700240936::1700240994::1::::<><>::
+Branch_2.obj::Mesh::7026559728416042404::1700240936::1700240994::1::::<><>::
+Branch_3.obj::Mesh::2112439927479120334::1700240936::1700240994::1::::<><>::
+Bush_1.obj::Mesh::6260378822649655527::1700240936::1700240994::1::::<><>::
+Bush_2.obj::Mesh::5466013725717722397::1700240936::1700240994::1::::<><>::
+Bush_3.obj::Mesh::5788805940262336292::1700240936::1700240994::1::::<><>::
+Bush_4.obj::Mesh::3988774809743202122::1700240936::1700240994::1::::<><>::
+Bush_5.obj::Mesh::3774925406956863502::1700240936::1700240994::1::::<><>::
+Campfire_Star.obj::Mesh::1565736328242007676::1700240936::1700240994::1::::<><>::
+Campfire_Teepee.obj::Mesh::2476191914787795275::1700240936::1700240994::1::::<><>::
+Cattail_1.obj::Mesh::2095042811588799464::1700240936::1700240994::1::::<><>::
+Cattail_2.obj::Mesh::6468749873224799504::1700240936::1700240994::1::::<><>::
+Cattail_3.obj::Mesh::3096602534537495272::1700240936::1700240994::1::::<><>::
+Cattail_4.obj::Mesh::7266940525744167929::1700240936::1700240994::1::::<><>::
+Cattail_5.obj::Mesh::3205727402392952707::1700240936::1700240994::1::::<><>::
+Coconut.obj::Mesh::755403212517531546::1700240936::1700240994::1::::<><>::
+Flower_Balloon_1.obj::Mesh::4487886372848087098::1700240936::1700240996::1::::<><>::
+Flower_Balloon_2.obj::Mesh::293651459231363257::1700240936::1700240994::1::::<><>::
+Flower_Balloon_3.obj::Mesh::3124342161829862714::1700240936::1700240988::1::::<><>::
+Flower_Bellflower_1.obj::Mesh::305930349088457537::1700240936::1700240988::1::::<><>::
+Flower_Bellflower_2.obj::Mesh::6172903912994500459::1700240936::1700240988::1::::<><>::
+Flower_Bellflower_3.obj::Mesh::8438274765528911257::1700240936::1700240988::1::::<><>::
+Flower_Daisy_1.obj::Mesh::3473581442939165328::1700240936::1700240990::1::::<><>::
+Flower_Daisy_2.obj::Mesh::3041884445119216950::1700240936::1700240990::1::::<><>::
+Flower_Daisy_3.obj::Mesh::7368846693951718949::1700240936::1700240990::1::::<><>::
+Flower_Sunflower_1.obj::Mesh::5460098857923678339::1700240936::1700240990::1::::<><>::
+Flower_Sunflower_2.obj::Mesh::2681122065496337429::1700240936::1700240990::1::::<><>::
+Flower_Sunflower_3.obj::Mesh::8659618212097951183::1700240938::1700240990::1::::<><>::uid://b3svptf1q56s
+Flower_Violet_1.obj::Mesh::7194204766136442617::1700240938::1700240990::1::::<><>::uid://b3svptf1q56s
+Flower_Violet_2.obj::Mesh::5341079357383366634::1700240938::1700240990::1::::<><>::uid://b3svptf1q56s
+Flower_Violet_3.obj::Mesh::4142519219698150040::1700240938::1700240990::1::::<><>::uid://b3svptf1q56s
+Grass_Clump_1.obj::Mesh::5880202557035648871::1700240938::1700240990::1::::<><>::uid://bbjt2mjttfe6
+Grass_Clump_2.obj::Mesh::2868863747198020981::1700240938::1700240990::1::::<><>::uid://bbjt2mjttfe6
+Grass_Clump_3.obj::Mesh::7469076144502803579::1700240938::1700240990::1::::<><>::uid://bbjt2mjttfe6
+Grass_Clump_4.obj::Mesh::502368248697120505::1700240938::1700240990::1::::<><>::uid://bbjt2mjttfe6
+Grass_Clump_5.obj::Mesh::2768051318173637465::1700240938::1700240990::1::::<><>::uid://bbjt2mjttfe6
+Lamp_Post.obj::Mesh::7148925785162385056::1700240938::1700240990::1::::<><>::uid://b3pewyp3k2tdg
+Log_1.obj::Mesh::4863512804858904814::1700240938::1700240990::1::::<><>::uid://dtdhsmy15o1pv
+Log_2.obj::Mesh::6635469213555754175::1700240938::1700240990::1::::<><>::
+Log_3.obj::Mesh::1129965942236891100::1700240938::1700240990::1::::<><>::
+Log_4.obj::Mesh::5553727727999709912::1700240938::1700240990::1::::<><>::
+Log_5.obj::Mesh::869603980741022656::1700240938::1700240990::1::::<><>::
+Mountain_1.obj::Mesh::7376371304745280778::1700240938::1700240990::1::::<><>::
+Mountain_2.obj::Mesh::9107588333523631355::1700240938::1700240990::1::::<><>::
+Mountain_3.obj::Mesh::457693575430960197::1700240938::1700240990::1::::<><>::
+Mountain_4.obj::Mesh::4119432288660650761::1700240938::1700240988::1::::<><>::uid://hqb2biesidsa
+Mushroom_Brown.obj::Mesh::1966476501578127161::1700240938::1700240988::1::::<><>::uid://drb137n8je8r7
+Mushroom_Dark_Red.obj::Mesh::3961462206986178972::1700240938::1700240988::1::::<><>::uid://drb137n8je8r7
+Mushroom_Grey.obj::Mesh::5746269092490265346::1700240938::1700240988::1::::<><>::uid://drb137n8je8r7
+Mushroom_Red_Spotted.obj::Mesh::2877937444432478472::1700240938::1700240988::1::::<><>::uid://b36lims8i7mxu
+Rock_1.obj::Mesh::2544471434910667262::1700240938::1700240988::1::::<><>::uid://fwfhb6jbdmtw
+Rock_2.obj::Mesh::4906274272550885707::1700240938::1700240988::1::::<><>::uid://fwfhb6jbdmtw
+Rock_3.obj::Mesh::7161868688994189472::1700240938::1700240988::1::::<><>::
+Rock_4.obj::Mesh::6162591028431147845::1700240938::1700240992::1::::<><>::
+Rock_5.obj::Mesh::1392896956777633008::1700240938::1700240992::1::::<><>::
+Rock_6.obj::Mesh::1317984215516775266::1700240938::1700240992::1::::<><>::
+Rock_7.obj::Mesh::4763175642656185873::1700240938::1700240992::1::::<><>::
+Rock_8.obj::Mesh::2693515760944487961::1700240938::1700240992::1::::<><>::
+Rock_9.obj::Mesh::6435314887853507727::1700240938::1700240992::1::::<><>::
+Root_1.obj::Mesh::8915220410699059399::1700240938::1700240992::1::::<><>::
+Root_2.obj::Mesh::1325629962036547605::1700240938::1700240992::1::::<><>::
+Root_3.obj::Mesh::8829542853077926376::1700240938::1700240992::1::::<><>::
+Root_4.obj::Mesh::1249709824479889589::1700240938::1700240992::1::::<><>::
+Root_5.obj::Mesh::282461640137625818::1700240938::1700240992::1::::<><>::
+Root_6.obj::Mesh::723979693271534657::1700240938::1700240992::1::::<><>::
+Shell_Layered.obj::Mesh::4984103340292251776::1700240938::1700240992::1::::<><>::
+Shell_Salmon.obj::Mesh::7227247126675366431::1700240938::1700240992::1::::<><>::
+Shell_Slate.obj::Mesh::8647761424406165617::1700240938::1700240992::1::::<><>::
+Starfish_Bleached.obj::Mesh::1888441143978824525::1700240938::1700240992::1::::<><>::
+Starfish_Salmon.obj::Mesh::842326381419429578::1700240938::1700240992::1::::<><>::
+Stepping_Stone_1.obj::Mesh::4683002342793787617::1700240938::1700240990::1::::<><>::
+Stepping_Stone_2.obj::Mesh::5263892153648743365::1700240938::1700240990::1::::<><>::
+Stepping_Stone_3.obj::Mesh::7855371034227461843::1700240938::1700240990::1::::<><>::
+Stepping_Stone_4.obj::Mesh::6571967201277638748::1700240938::1700240990::1::::<><>::
+Stump_1.obj::Mesh::265645791536009423::1700240938::1700240990::1::::<><>::
+Stump_2.obj::Mesh::4334725423249737208::1700240938::1700240990::1::::<><>::
+Stump_3.obj::Mesh::6979764971867033459::1700240938::1700240990::1::::<><>::
+Tent_Leanto_1.obj::Mesh::8213361743128253346::1700240938::1700240990::1::::<><>::
+Tent_Leanto_2.obj::Mesh::5107072661400258582::1700240938::1700240990::1::::<><>::
+Timber_Cut_1.obj::Mesh::6982680917922541612::1700240938::1700240994::1::::<><>::
+Timber_Cut_2.obj::Mesh::8809025282323594698::1700240938::1700240994::1::::<><>::
+Timber_Cut_3.obj::Mesh::2720966235210490065::1700240938::1700240994::1::::<><>::
+Timber_Cut_4.obj::Mesh::6637204388366350305::1700240940::1700240994::1::::<><>::uid://bvmy3qto65l13
+Timber_Stack_1.obj::Mesh::8842946407665220142::1700240940::1700240994::1::::<><>::uid://bvmy3qto65l13
+Timber_Stack_2.obj::Mesh::7785685487758742216::1700240940::1700240994::1::::<><>::uid://bvmy3qto65l13
+Timber_Whole_1.obj::Mesh::912109715935564676::1700240940::1700240994::1::::<><>::uid://bvmy3qto65l13
+Tree_Bare_1.obj::Mesh::3543569463042310101::1700240940::1700240994::1::::<><>::uid://bav713ru8r5jm
+Tree_Bare_2.obj::Mesh::877731884969513635::1700240940::1700240994::1::::<><>::uid://bav713ru8r5jm
+Tree_Bare_3.obj::Mesh::8206120532334434582::1700240940::1700240994::1::::<><>::uid://bav713ru8r5jm
+Tree_Bare_4.obj::Mesh::8515599767656312129::1700240940::1700240994::1::::<><>::uid://bav713ru8r5jm
+Tree_Bare_5.obj::Mesh::7367062302373037105::1700240940::1700240994::1::::<><>::uid://bav713ru8r5jm
+Tree_Bare_6.obj::Mesh::2393186026570306599::1700240940::1700240994::1::::<><>::uid://bav713ru8r5jm
+Tree_Cedar_1.obj::Mesh::5376480979392436690::1700240940::1700240992::1::::<><>::
+Tree_Cedar_2.obj::Mesh::2910726301279825654::1700240940::1700240992::1::::<><>::
+Tree_Cedar_3.obj::Mesh::8317299722306768367::1700240940::1700240992::1::::<><>::
+Tree_Oak_1.obj::Mesh::6134596295304737408::1700240940::1700240992::1::::<><>::
+Tree_Oak_2.obj::Mesh::9011238502722440977::1700240940::1700240992::1::::<><>::
+Tree_Oak_3.obj::Mesh::5647763160491457340::1700240940::1700240992::1::::<><>::
+Tree_Oak_4.obj::Mesh::152920410073894250::1700240940::1700240992::1::::<><>::
+Tree_Oak_5.obj::Mesh::9100591870364857579::1700240940::1700240992::1::::<><>::
+Tree_Oak_6.obj::Mesh::7546105598216553568::1700240940::1700240992::1::::<><>::
+Tree_Oak_7.obj::Mesh::2263535040988447722::1700240940::1700240992::1::::<><>::
+Tree_Oak_8.obj::Mesh::9005883756329769647::1700240940::1700240992::1::::<><>::
+Tree_Palm_1.obj::Mesh::8139066010115845884::1700240940::1700240992::1::::<><>::
+Tree_Palm_2.obj::Mesh::7590245956720340091::1700240940::1700240992::1::::<><>::
+Tree_Palm_3.obj::Mesh::2883437271008598455::1700240940::1700240988::1::::<><>::
+Tree_Palm_4.obj::Mesh::517384108299541557::1700240940::1700240988::1::::<><>::
+Tree_Palm_5.obj::Mesh::5992834582333984159::1700240940::1700240988::1::::<><>::
+Tree_Palm_6.obj::Mesh::5366154862545355666::1700240940::1700240988::1::::<><>::
+Tree_Pine_1.obj::Mesh::5799328005879189892::1700240940::1700240988::1::::<><>::
+Tree_Pine_2.obj::Mesh::1992418625385484233::1700240940::1700240988::1::::<><>::
+Tree_Pine_3.obj::Mesh::104328979349007552::1700240940::1700240988::1::::<><>::
+Tree_Pine_4.obj::Mesh::4115700149138995279::1700240940::1700240988::1::::<><>::
+Tree_Pine_5.obj::Mesh::3118558485665666211::1700240940::1700240988::1::::<><>::
+Tree_Pine_6.obj::Mesh::1484281213443059781::1700240940::1700240988::1::::<><>::
+::res://Nature Kit/models/textures/::1700444316
+Bark1.png::CompressedTexture2D::6174387111651706568::1700240940::1700419666::1::::<><>::
+Bark Branch.png::CompressedTexture2D::2450874258596452290::1700240940::1700241024::1::::<><>::
+Bark Cedar.png::CompressedTexture2D::4303442613186012814::1700240940::1700241030::1::::<><>::
+Bark Elm.png::CompressedTexture2D::5464423823794258998::1700240940::1700240986::1::::<><>::
+Bark Firewood.png::CompressedTexture2D::3886667013599831964::1700240940::1700241024::1::::<><>::
+Bark Log.png::CompressedTexture2D::8499501045281250827::1700240940::1700241026::1::::<><>::
+Bark Oak.png::CompressedTexture2D::2431763488807400334::1700240940::1700241030::1::::<><>::
+Bark Palm.png::CompressedTexture2D::121288112665063372::1700240940::1700241030::1::::<><>::
+Bark Pine.png::CompressedTexture2D::1029239278894834107::1700240940::1700241030::1::::<><>::
+Bark Root.png::CompressedTexture2D::3476043715890016287::1700240940::1700241028::1::::<><>::
+Bark Stump.png::CompressedTexture2D::5332246475840368604::1700240940::1700241028::1::::<><>::
+Candlewax.png::CompressedTexture2D::1244399904483391811::1700240940::1700241026::1::::<><>::
+Cattail Stem.png::CompressedTexture2D::8539999337763950828::1700240940::1700241026::1::::<><>::
+Cattail.png::CompressedTexture2D::1229696174369659229::1700240940::1700241026::1::::<><>::
+Coconut.png::CompressedTexture2D::2927839090562695467::1700240940::1700241026::1::::<><>::
+Flower 5 Point Blue.png::CompressedTexture2D::478568119402935425::1700240940::1700241026::1::::<><>::
+Flower 5 Point Pink.png::CompressedTexture2D::9056369389712800808::1700240940::1700241026::1::::<><>::
+Flower 5 Point Violet.png::CompressedTexture2D::243030237041902299::1700240940::1700241026::1::::<><>::
+Flower Daisy White.png::CompressedTexture2D::2204730102372747460::1700240940::1700241026::1::::<><>::
+Flower Stamen Black.png::CompressedTexture2D::4400569380878116137::1700240940::1700240986::1::::<><>::
+Flower Stamen Gold.png::CompressedTexture2D::3858276442426381601::1700240940::1700241026::1::::<><>::
+Flower Stem.png::CompressedTexture2D::8262300367710308677::1700240940::1700241026::1::::<><>::
+Flower Sunflower.png::CompressedTexture2D::5478498245518598473::1700240940::1700241026::1::::<><>::
+Grass.png::CompressedTexture2D::72835041514352163::1700240940::1700241026::1::::<><>::
+Leaf Palm.png::CompressedTexture2D::8251105481208541537::1700240940::1700241030::1::::<><>::
+Leaf.png::CompressedTexture2D::129122645757627816::1700240940::1700241026::1::::<><>::
+leaves autumn cedar.png::CompressedTexture2D::5345827287992849335::1700240940::1700240988::1::::<><>::
+leaves autumn orange.png::CompressedTexture2D::545323896006866723::1700240940::1700240988::1::::<><>::
+leaves autumn red.png::CompressedTexture2D::2521752417285386973::1700240940::1700240988::1::::<><>::
+leaves autumn yellow.png::CompressedTexture2D::8930629623362474093::1700240940::1700240988::1::::<><>::
+Leaves Bush.png::CompressedTexture2D::5726505358447518910::1700240940::1700241024::1::::<><>::
+Leaves Cedar.png::CompressedTexture2D::3775907261400488113::1700240940::1700241030::1::::<><>::
+Leaves Oak.png::CompressedTexture2D::3580053704338570172::1700240940::1700241030::1::::<><>::
+Leaves Pine.png::CompressedTexture2D::6985190155911967896::1700240940::1700241030::1::::<><>::
+Metal Iron Dark.png::CompressedTexture2D::6421202941066999952::1700240940::1700240988::1::::<><>::
+Metal Iron Light.png::CompressedTexture2D::4382957412324986224::1700240940::1700241026::1::::<><>::
+Metal Iron.png::CompressedTexture2D::6063595718143476164::1700240940::1700241026::1::::<><>::
+Mountain.png::CompressedTexture2D::524460948047281488::1700240940::1700241026::1::::<><>::
+Mushroom Brown.png::CompressedTexture2D::5827447387593322440::1700240940::1700241026::1::::<><>::
+Mushroom Dark Red.png::CompressedTexture2D::5647039522133380085::1700240940::1700241028::1::::<><>::
+Mushroom Gray.png::CompressedTexture2D::346639755915637577::1700240940::1700241028::1::::<><>::
+Mushroom Red Spotted.png::CompressedTexture2D::4416386848803544434::1700240940::1700241028::1::::<><>::
+Mushroom Stem.png::CompressedTexture2D::8356167117062432630::1700240940::1700241026::1::::<><>::
+Rock.png::CompressedTexture2D::396676715123318228::1700240940::1700241028::1::::<><>::
+Shell Inner.png::CompressedTexture2D::2102943703874911810::1700240940::1700241028::1::::<><>::
+Shell Layered.png::CompressedTexture2D::3755749169128285256::1700240940::1700241028::1::::<><>::
+Shell Salmon.png::CompressedTexture2D::7685476931696228195::1700240940::1700241028::1::::<><>::
+Shell Slate.png::CompressedTexture2D::5663447827814005890::1700240940::1700241028::1::::<><>::
+Starfish Bleached.png::CompressedTexture2D::4048175536920238331::1700240940::1700241028::1::::<><>::
+Starfish.png::CompressedTexture2D::5555083684148609675::1700240940::1700241028::1::::<><>::
+Tarp Blue.png::CompressedTexture2D::4217779980914299612::1700240940::1700241030::1::::<><>::
+Tarp Green.png::CompressedTexture2D::7535541351149601388::1700240940::1700241030::1::::<><>::
+Wood End.png::CompressedTexture2D::5599639689685556583::1700240940::1700241024::1::::<><>::
+Wood.png::CompressedTexture2D::751917951913908252::1700240942::1700241024::1::::<><>::
+::res://Treasure/::1700444316
+::res://Treasure/Package/::1700444316
+AncientTreasure.obj::Mesh::7142008724758052891::1700240968::1700240988::1::::<><>::
+AncientTreasure.png::CompressedTexture2D::1877003199097975036::1700240968::1700241032::1::::<><>::

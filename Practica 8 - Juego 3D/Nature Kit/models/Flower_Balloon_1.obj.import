@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4673k2hm1c5g"
+path="res://.godot/imported/Flower_Balloon_1.obj-fd97c0efb9339430566a31c02aee6d66.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Flower_Balloon_1.obj-fd97c0efb9339430566a31c02aee6d66.mesh"]
+
+source_file="res://Nature Kit/models/Flower_Balloon_1.obj"
+dest_files=["res://.godot/imported/Flower_Balloon_1.obj-fd97c0efb9339430566a31c02aee6d66.mesh", "res://.godot/imported/Flower_Balloon_1.obj-fd97c0efb9339430566a31c02aee6d66.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

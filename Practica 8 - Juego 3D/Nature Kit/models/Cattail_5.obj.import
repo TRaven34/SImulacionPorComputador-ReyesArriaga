@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://blw44kojg0yn8"
+path="res://.godot/imported/Cattail_5.obj-9b39bf340150be7b9f099250bac6934b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cattail_5.obj-9b39bf340150be7b9f099250bac6934b.mesh"]
+
+source_file="res://Nature Kit/models/Cattail_5.obj"
+dest_files=["res://.godot/imported/Cattail_5.obj-9b39bf340150be7b9f099250bac6934b.mesh", "res://.godot/imported/Cattail_5.obj-9b39bf340150be7b9f099250bac6934b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
